@@ -98,7 +98,7 @@ public class CalendarCell extends Button {
         rectLabel = new Rect();
         gradientPeriodConfirmed = makeCellGradient(0xffff0000, 0xffaa0000);
         gradientPeriodPredicted = makeCellGradient(0xffffc0c0, 0xffc04040);
-        gradientFertilityPredicted = makeCellGradient(0xff00c3ff, 0xff007da3);
+        gradientFertilityPredicted = makeCellGradient(0xffff00ff, 0xffff00ff);
         gradientFertilityFuture = makeCellGradient(0xff66dbff, 0xff408ba0);
         gradientInfertile = makeCellGradient(0xffffff00, 0xffaaaa00);
         gradientEmpty = makeCellGradient(0xff808080, 0xff808080);
@@ -128,7 +128,7 @@ public class CalendarCell extends Button {
         rectCanvas.set(0, 0, w, h);
         gradientPeriodConfirmed = makeCellGradient(0xffff0000, 0xffaa0000);
         gradientPeriodPredicted = makeCellGradient(0xffffc0c0, 0xffc04040);
-        gradientFertilityPredicted = makeCellGradient(0xff00c3ff, 0xff007da3);
+        gradientFertilityPredicted = makeCellGradient(0xffff00ff, 0xffff0000);
         gradientFertilityFuture = makeCellGradient(0xff66dbff, 0xff408ba0);
         gradientInfertile = makeCellGradient(0xffffff00, 0xffaaaa00);
     }
